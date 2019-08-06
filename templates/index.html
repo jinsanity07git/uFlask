@@ -1,35 +1,12 @@
-<html>
-    <head> 
-        
-        <title> {{title}} </title>
-        <link rel ='stylesheet' href = "static/css/main.css" /> <link>
+{% extends 'layouts/master1.html' %}
 
-    </head>
-    <body>
-        <head>            
-        </head>
-        <nav>
-            <ul>
-                <li> <a href="#" >Home</a></li>
-                <li> <a href="#" >News</a></li>
-            </ul>
-        </nav>
-        <h1> {{title}} </h1>
-        {% for item in num_ls %}
-        <p>{{item}}</p>
-        {% endfor %}
+{% block content %}
+<h1> {{title}} </h1>
+{% for item in num_ls %}
+<p>{{item}}</p>
+{% endfor %}
+<img src = "static/img/geek.png"/>
 
-        <img src = "static/img/geek.png"/>
-
-
-
-        <footer>
-            &copy; 2019 - Jinsanity
-        </footer>
-        <script src="static/js/main.js"></script>
-    </body>
-
-
-</html>
+{% endblock  %}
 
 
