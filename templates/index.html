@@ -1,7 +1,32 @@
-<h1> {{title}}</h1>
+<html>
+    <head> 
+        
+        <title> {{title}} </title>
 
-{% for item in num_ls %}
+    </head>
+    <body>
+        <head>            
+        </head>
+        <nav>
+            <ul>
+                <li> <a href="#" >Home</a></li>
+                <li> <a href="#" >News</a></li>
+            </ul>
+        </nav>
+        <h1> {{title}} <h1>
+        {% for item in num_ls %}
+        <p>{{item}}</p>
+        {% endfor %}
 
-<p>{{item}}</p>
 
-{% endfor %}
+
+        <footer>
+            &copy; 2019 - Jinsanity
+        </footer>
+
+    </body>
+
+
+</html>
+
+
