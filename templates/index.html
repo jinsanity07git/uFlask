@@ -2,7 +2,17 @@
     <head> 
         
         <title> {{title}} </title>
+        <style>
+            ul li {
+             line-style-type : none;
+            display : inline-block;
+            margin: Zrem;
+            }
 
+            h1 {
+                color : aqua;
+            }
+        </style>
     </head>
     <body>
         <head>            
@@ -13,7 +23,7 @@
                 <li> <a href="#" >News</a></li>
             </ul>
         </nav>
-        <h1> {{title}} <h1>
+        <h1> {{title}} </h1>
         {% for item in num_ls %}
         <p>{{item}}</p>
         {% endfor %}
