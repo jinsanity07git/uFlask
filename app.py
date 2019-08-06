@@ -8,6 +8,10 @@ def hello_world():
     num_ls = [1,2,3,4]
     return render_template('index.html', title=title, num_ls = num_ls)
 
+@app.route('/lang/<name>')
+def lang(name):
+    title   = name
+    return render_template('lang.html', title=title)
 
 @app.route('/about')
 def about():
