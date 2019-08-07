@@ -36,3 +36,5 @@ Bugs:
 [Couldn't find that process type, Heroku](https://stackoverflow.com/questions/48512013/couldnt-find-that-process-type-heroku)
 * code=H10 desc="App crashed" 
 [Heroku deployment error H10 (App crashed)](https://stackoverflow.com/questions/13496827/heroku-deployment-error-h10-app-crashed)
+[Heroku can't find gunicorn command](https://stackoverflow.com/questions/28977018/heroku-cant-find-gunicorn-command?rq=1)
+
