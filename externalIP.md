@@ -31,5 +31,8 @@ $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
 
-
+Bugs:
+* H14
 [Couldn't find that process type, Heroku](https://stackoverflow.com/questions/48512013/couldnt-find-that-process-type-heroku)
+* code=H10 desc="App crashed" 
+[Heroku deployment error H10 (App crashed)](https://stackoverflow.com/questions/13496827/heroku-deployment-error-h10-app-crashed)
