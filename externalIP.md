@@ -30,3 +30,6 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
+
+
+[Couldn't find that process type, Heroku](https://stackoverflow.com/questions/48512013/couldnt-find-that-process-type-heroku)
