@@ -16,6 +16,10 @@ heroku deploy
 Install the Heroku CLI
 Download and install the Heroku CLI.
 
+tutorial
+* [datademofun/heroku-basic-flask](https://github.com/datademofun/heroku-basic-flask)
+
+
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
 
 $ heroku login
