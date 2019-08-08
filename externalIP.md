@@ -3,6 +3,8 @@ router side
 * LAN Setup
 * Port Forwarding / Port Triggering
 
+
+* [Flask File Uploading - Tutorialspoint](https://www.google.com/search?q=tutorialspoint+flask+file+uploading&oq=tutorialpoint+flask+&aqs=chrome.3.69i57j0l5.13899j0j4&sourceid=chrome&ie=UTF-8) 
 add vedio links from youtue CS folder
 
 
@@ -15,6 +17,10 @@ heroku deploy
 
 Install the Heroku CLI
 Download and install the Heroku CLI.
+
+tutorial
+* [datademofun/heroku-basic-flask](https://github.com/datademofun/heroku-basic-flask)
+
 
 If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
 
